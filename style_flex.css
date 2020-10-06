@@ -1,0 +1,83 @@
+.row-1 {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.row-2 {
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.row-3 {
+  height: 50vh;
+}
+
+.global {
+  background-color: cornflowerblue;
+  text-align: center;
+}
+
+.size-20 {
+  flex-basis: 20%;
+}
+.size-33 {
+  flex-basis: 33.3333%;
+}
+.size-50 {
+  flex-basis: 50%;
+}
+.size-66 {
+  flex-basis: 66.6666%;
+}
+.size-80 {
+  flex-basis: 80%;
+}
+.size-100 {
+  flex-basis: 100%;
+}
+
+.cell-1 {
+  height: 100%;
+  background-color: #2ECC71;
+}
+.cell-2 {
+  height: 100%;
+  background-color: #2980B9;
+}
+.cell-3 {
+  height: 100%;
+  background-color: #E74C3C;
+}
+.cell-3-right {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cell-4 {
+  height: 50%;
+  background-color: #E67E22;
+}
+.cell-5 {
+  height: 50%;
+  background-color: #95A5A6;
+}
+.cell-6 {
+  height: 50%;
+  /* align-self: flex-end; */
+  background-color: #F39C12;
+}
+.cell-7 {
+  height: 50%;
+  background-color: #16A085;
+}
+.cell-8 {
+  height: 50%;
+  background-color: #D35400;
+}
+.cell-9 {
+  height: 100%;
+  background-color: #2C3E50;
+}
