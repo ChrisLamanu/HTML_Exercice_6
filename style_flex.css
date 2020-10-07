@@ -14,10 +14,11 @@
   height: 50vh;
 }
 
-.global {
+/* Not use for now. Good to add properties on all cell, like border etc.. */
+/* .global {
   background-color: cornflowerblue;
   text-align: center;
-}
+} */
 
 .size-20 {
   flex-basis: 20%;
@@ -66,7 +67,6 @@
 }
 .cell-6 {
   height: 50%;
-  /* align-self: flex-end; */
   background-color: #F39C12;
 }
 .cell-7 {
